@@ -69,6 +69,7 @@ Lower confidence thresholds detect more objects but may increase false positives
 - **Streamlit** - Web interface
 - **OpenCV** - Image/video processing
 - **Roboflow** - Dataset management
+- **Google Colab** - Model Training
 
 ## Author
 
