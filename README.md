@@ -4,7 +4,7 @@
 
 A computer vision system that detects and classifies trash in images and videos, built for CS366 Computer Vision at Colby College.
 
-![EcoVision Demo](demo.png)
+![EcoVision Demo](https://github.com/user-attachments/assets/demo.png)
 
 ## Overview
 
