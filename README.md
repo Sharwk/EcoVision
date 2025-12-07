@@ -1,4 +1,4 @@
-# EcoVision 
+# EcoVision
 
 **Campus Trash Detection using YOLOv10**
 
@@ -55,8 +55,10 @@ ecovision/
 | Architecture | YOLOv10n |
 | Input Size | 640×640 |
 | Epochs | 50 |
-| Dataset | [Garbage Classification](https://universe.roboflow.com/material-identification/garbage-classification-3/dataset/2) |
-| Classes | cardboard, glass, metal, paper, plastic, trash |
+| Dataset | [Trash Item Detection](https://app.roboflow.com/seanbell/taco-7cvyg-evncy/1) |
+| Classes | Aluminum foil, Plastic bottle, Bottle cap, Can, Can tab, Carton, Cigarette, Glass bottle, Lid, Other plastic, Paper, Plastic Bag, Plastic cup, Straw, Styrofoam cup, Styrofoam piece, Wrapper |
+
+
 
 ## Confidence Threshold
 
@@ -69,7 +71,6 @@ Lower confidence thresholds detect more objects but may increase false positives
 - **Streamlit** - Web interface
 - **OpenCV** - Image/video processing
 - **Roboflow** - Dataset management
-- **Google Colab** - Model Training
 
 ## Author
 
@@ -81,4 +82,4 @@ Professor Tahiya Chowdhury
 
 - [Train YOLOv10 on Custom Dataset - Roboflow](https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov10-object-detection-on-custom-dataset.ipynb)
 - [Ultralytics Documentation](https://docs.ultralytics.com/)
-- [Garbage Classification Dataset](https://universe.roboflow.com/material-identification/garbage-classification-3/dataset/2)
+- [Trash Item Detection](https://universe.roboflow.com/seanbell/taco-7cvyg-evncy/dataset/1)

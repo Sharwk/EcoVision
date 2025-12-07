@@ -86,7 +86,7 @@ def process_uploaded_video(video_bytes):
         video_path = tmpfile.name
 
     try:
-        # Read the video
+        # Read video
         cap = cv2.VideoCapture(video_path)        
         # Get video properties
         width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -116,7 +116,6 @@ def process_uploaded_video(video_bytes):
             if not ret:
                 break
                 
-            # Process frame
             results = model(frame, conf=confidence)
             processed_frame = results[0].plot()
             
@@ -128,7 +127,7 @@ def process_uploaded_video(video_bytes):
             # Write processed frame
             out.write(processed_frame)
             
-            # Update progress
+            # Update 
             frame_count += 1
             progress_bar.progress(frame_count / total_frames)
         
@@ -221,7 +220,7 @@ else:  # Video processing
         video_container = st.container()
         with video_container:
             col1, col2, col3 = st.columns([1,2,1])  # Creates three columns with middle one being larger
-            with col2:  # Use the middle column for the video
+            with col2:  
                 st.video(video_bytes)
         
         if st.sidebar.button('Detect'):
