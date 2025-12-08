@@ -8,7 +8,7 @@ A computer vision system that detects and classifies trash in images and videos,
 
 ## Overview
 
-EcoVision uses a fine-tuned YOLOv10 model to detect common waste items including cardboard, glass, metal, paper, plastic, and other debris. The project includes a Streamlit web application for easy image and video analysis.
+EcoVision uses a fine-tuned YOLOv10 model to detect common campus waste items, including cans, bottles, plastic bags, paper, and other debris. The project includes a Streamlit web application for easy image and video analysis.
 
 ## Features
 
