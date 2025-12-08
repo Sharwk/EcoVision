@@ -1,0 +1,8 @@
+[theme]
+primaryColor="#c4fa9c"              # slider active + radio check color
+backgroundColor="#3F4F44"           # main background
+secondaryBackgroundColor="#2C3930"  # sidebar background
+textColor="#FFFFFF"                 # white text everywhere
+
+accentColor="#DCD7C9"               # replaces the BLUE parts
+errorColor="#475569"                # replaces the RED parts
